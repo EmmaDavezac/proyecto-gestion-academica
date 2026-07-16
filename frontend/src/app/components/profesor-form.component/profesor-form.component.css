@@ -2,7 +2,7 @@
   display: block;
 }
 
-.estudiante-form {
+.profesor-form {
   display: grid;
   gap: 1rem;
   min-width: 460px;
@@ -72,7 +72,7 @@ mat-dialog-content {
 }
 
 @media (max-width: 720px) {
-  .estudiante-form {
+  .profesor-form {
     min-width: auto;
   }
 

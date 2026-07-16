@@ -1,38 +1,35 @@
 <p>profesor-form.component works!</p>
-<h2 mat-dialog-title>{{ isEditMode ? 'Editar Estudiante' : 'Nuevo Estudiante' }}</h2>
+<h2 mat-dialog-title>{{ isEditMode ? 'Editar Profesor' : 'Nuevo Profesor' }}</h2>
 
-<mat-dialog-content class="estudiante-form" [formGroup]="form">
+<mat-dialog-content class="profesor-form" [formGroup]="form">
   <div class="form-grid">
     <mat-form-field appearance="fill" class="full-width grid-item">
       <mat-label>Nombre</mat-label>
       <input matInput formControlName="nombre">
     </mat-form-field>
 
-    <mat-form-field appearance="fill" class="full-width grid-item">
-      <mat-label>Legajo</mat-label>
-      <input matInput formControlName="legajo">
-    </mat-form-field>
 
     <mat-form-field appearance="fill" class="full-width grid-item">
       <mat-label>Apellido</mat-label>
       <input matInput formControlName="apellido">
     </mat-form-field>
 
-    <mat-form-field appearance="fill" class="full-width grid-item">
-      <mat-label>Carrera</mat-label>
-      <mat-select formControlName="carrera_id">
-        @for (carrera of carreras; track carrera.id) {
-          <mat-option [value]="carrera.id">
-            {{ carrera.nombre }}
-          </mat-option>
-        }
-      </mat-select>
-    </mat-form-field>
 
     <mat-form-field appearance="fill" class="full-width grid-item">
       <mat-label>Email</mat-label>
       <input matInput formControlName="email">
     </mat-form-field>
+
+       <mat-form-field appearance="fill" class="full-width grid-item">
+      <mat-label>Titulo</mat-label>
+      <input matInput formControlName="titulo">
+    </mat-form-field>
+
+   <mat-form-field appearance="fill" class="full-width grid-item">
+      <mat-label>Sueldo</mat-label>
+      <input matInput formControlName="sueldo">
+    </mat-form-field>
+
 
     <div class="grid-spacer"></div>
   </div>

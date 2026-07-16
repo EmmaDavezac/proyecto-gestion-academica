@@ -5,7 +5,6 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select'; 
-import { CarreraService } from '../../services/carrera.service'; 
 import { ChangeDetectorRef } from '@angular/core'; 
 
 @Component({
@@ -18,10 +17,8 @@ import { ChangeDetectorRef } from '@angular/core';
 export class ProfesorFormComponent implements OnInit {
   form: FormGroup;
   isEditMode: boolean;
-  carreras: any[] = []; 
 
   private fb = inject(FormBuilder);
-  private carreraService = inject(CarreraService); 
   
   constructor(
     public dialogRef: MatDialogRef<ProfesorFormComponent>,
@@ -41,10 +38,7 @@ export class ProfesorFormComponent implements OnInit {
   private cdr = inject(ChangeDetectorRef); 
 
   ngOnInit() {
-    this.carreraService.listarTodas().subscribe(data => {
-      this.carreras = data;
-      this.cdr.detectChanges(); 
-    });
+  
   }
 
   guardar() {
