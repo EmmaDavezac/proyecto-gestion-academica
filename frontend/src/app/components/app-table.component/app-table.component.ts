@@ -18,4 +18,3 @@ export class AppTableComponent {
   @Output() edit = new EventEmitter<any>();
   @Output() delete = new EventEmitter<any>();
 }
-
