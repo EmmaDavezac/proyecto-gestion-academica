@@ -1,15 +1,21 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { MatTableModule, MatTableDataSource } from '@angular/material/table';
+import { MatIconModule } from '@angular/material/icon'; // Necesario para iconos
+import { MatButtonModule } from '@angular/material/button'; // Necesario para botones
 
 @Component({
   selector: 'app-table',
   standalone: true,
-  imports: [MatTableModule],
+  imports: [MatTableModule, MatIconModule, MatButtonModule],
   templateUrl: './app-table.component.html'
 })
 export class AppTableComponent {
-  // Recibimos los datos y configuración desde el componente padre
   @Input({ required: true }) dataSource!: MatTableDataSource<Record<string, unknown>>;
   @Input({ required: true }) displayedColumns: string[] = [];
   @Input() headerLabels: Record<string, string> = {};
+
+  // Nuevos eventos para el padre
+  @Output() edit = new EventEmitter<any>();
+  @Output() delete = new EventEmitter<any>();
 }
+

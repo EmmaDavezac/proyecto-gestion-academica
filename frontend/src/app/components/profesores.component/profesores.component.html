@@ -1,0 +1,12 @@
+<button mat-raised-button class="btn-modern" color="primary" (click)="abrirFormulario()">
+  <mat-icon>person_add</mat-icon>
+  Agregar Profesor
+</button>
+
+<app-table 
+  [dataSource]="dataSource" 
+  [displayedColumns]="displayedColumns" 
+  [headerLabels]="headerLabels"
+  (edit)="abrirFormulario($event)"
+  (delete)="eliminarProfesor($event)">
+</app-table>
