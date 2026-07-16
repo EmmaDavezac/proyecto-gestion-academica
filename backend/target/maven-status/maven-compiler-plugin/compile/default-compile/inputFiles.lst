@@ -1,10 +1,12 @@
 C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\config\WebConfig.java
 C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\controller\CarreraController.java
 C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\controller\EstudianteController.java
-C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\controller\HolaController.java
+C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\controller\ProfesorController.java
 C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\dto\CarreraDTO.java
 C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\dto\EstudianteDTO.java
 C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\dto\EstudianteMapper.java
+C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\dto\ProfesorDTO.java
+C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\dto\ProfesorMapper.java
 C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\GestionAcademicaApplication.java
 C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\model\Carrera.java
 C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\model\Cursada.java
@@ -15,5 +17,7 @@ C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\un
 C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\model\Profesor.java
 C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\repository\CarreraRepository.java
 C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\repository\EstudianteRepository.java
+C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\repository\ProfesorRepository.java
 C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\service\CarreraService.java
 C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\service\EstudianteService.java
+C:\Users\Emma\Desktop\proyecto-gestion-academica\backend\src\main\java\ar\edu\universidad\gestion\service\ProfesorService.java
